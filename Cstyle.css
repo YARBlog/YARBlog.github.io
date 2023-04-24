@@ -1,0 +1,18 @@
+html{
+    background-color:rgb(240, 227, 201);
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1{
+  text-align:center;  
+}
+
+.b1{
+    font-size:20px;
+}
+
+.writings{
+    font-size:larger;
+    visibility:'hidden';
+    text-align:center;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <link rel = 'stylesheet' href = 'Cstyle.css'>
+    <title>Yet Another Random Blog</title>
+    <h1 id = 'titleText'></h1>
+    <b1>
+        <div class = 'writings' id = 'writings'>
+            <p1 style = 'font-size:24px;'>Posts <br> </p1>
+            <label for = 'URL'>April 15, 2023:</label>
+            <a id = 'URL' href="https://raw.githubusercontent.com/iamcurrentlyonfire90/YARB/main/whatAreWeDoing.txt">What are we doing?</a>
+            <p style = 'font-weight: bolder; font-size:19px;'>Things mentioned</p>
+            <a href = 'https://www.youtube.com/watch?v=35s4-3T5dJY' style = 'font-size:18px;'>A video on Albert Camus and absurdism<br></a>
+            
+            <p></p>
+            <p></p>
+
+            <label for = 'URL1'>April 22, 2023: </label>
+            <a id = 'URL1' href="https://raw.githubusercontent.com/iamcurrentlyonfire90/YARB/main/narc.txt" style = "position:relative;">narcisism <br></a>
+            <p style = 'font-size:20px; position:relative;'>reach me at YARB31415@gmail.com if you want to talk</p>
+        </div>
+    </b1>   
+    <script>
+        var phraseList = ['i lost The Game','i should really be adding to this blog instead of creating more flavor text','now with more calculus!','idiocracy incorporated','watch me vent IN REAL TIME','where ideologies go to die','how to be slightly above average','80-year sigh','wisdom of a narcisist','this [sin^2 + cos^2] is actually different this time'];
+        
+        for(var i = 0; i < phraseList.length; i++)
+        {
+            phraseList[i] = 'YARB: '+ phraseList[i];
+        }
+        
+        console.log(phraseList);
+        document.getElementById('titleText').textContent = phraseList[Math.floor(Math.random()*phraseList.length)];
+    </script>
+
+</html>

@@ -1,3 +1,3 @@
 # Hiveminds: Modelling and Pondering
 
-Hiveminds, what are they?
+$$T = D/c + d/v$$

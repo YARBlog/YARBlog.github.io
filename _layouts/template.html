@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html id = 'html'>
+    <style>
+html{
+    background-color:rgb(0,0,0);
+    font-family:'Times New Roman', Times, serif;
+}
 
+.writings{
+    font-size:larger;
+    visibility:'hidden';
+    text-align:center;
+    color:rgb(0,255,0);
+}</style>
+    <title>Yet Another Random Blog</title>
+    <h1 id = 'titleText' style = 'color:rgb(0,255,0);'></h1>
+    <b1>
+        <div class = 'writings' id = 'writings'>
+            <p1 style = 'font-size:24px;'>Posts <br> </p1>
+            
+            
+            <p style = 'font-size:20px; position:relative;'>reach me at YARB31415@gmail.com if you want to talk</p>
+        </div>
+    </b1>   
+    <script>
+        function changeColor(input)
+        {
+           document.getElementById('writings').style.color = input;
+           document.getElementById('titleText').style.color = input;
+        }
+        
+        
+        var phraseList = "Qu'est-ce C'est", 'I am going to be the [sin^2+cos^2] to break it all i swear','i lost The Game','i should really be adding to this blog instead of creating more flavor text','now with more calculus!','idiocracy incorporated','where ideologies go to die','how to be slightly above average','80-year sigh','this [sin^2 + cos^2] is actually different this time'];
+        
+        for(var i = 0; i < phraseList.length; i++)
+        {
+            phraseList[i] = 'YARB: '+ phraseList[i];
+        }
+        
+        console.log(phraseList);
+        document.getElementById('titleText').textContent = phraseList[Math.floor(Math.random()*phraseList.length)];
+        changeColor('green');
+                
+    </script>
+
+</html>

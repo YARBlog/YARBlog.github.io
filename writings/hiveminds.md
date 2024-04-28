@@ -1,3 +1,2 @@
-# Hiveminds: Modelling and Pondering
+<!DOCTYPE html>
 
-$$T = D/c + d/v$$

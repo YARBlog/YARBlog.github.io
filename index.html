@@ -39,20 +39,7 @@ html{
         
         console.log(phraseList);
         document.getElementById('titleText').textContent = phraseList[Math.floor(Math.random()*phraseList.length)];
-        
-        var colorChance = Math.floor(Math.random()*3);
-        if(colorChance == 0)
-        {
-         changeColor('red');
-        } 
-        else if(colorChance == 1)
-        {
-         changeColor('blue');
-        }
-        else
-        {
-         changeColor('green');
-        }
+        changeColor('green');
                 
     </script>
 

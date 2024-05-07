@@ -49,7 +49,7 @@
     
   </p1>
   <h3>The 3 types of hive minds</h3>
-  <p><i>legend of zorlda0</i></p>
+  <p><i>legend of zorlda</i></p>
     <p2>
     What we perceive as a hive mind is actually 3 different catagories of 
     """collective""" (see "Overmind") intelligence. These are:
@@ -76,7 +76,15 @@
       as the boundary between being "primarily determined by <math>E</math>" as opposed to being "primarily determined 
       by other agents' state."<br><br>
 
-      A more quintessential example of a swarm hivemind is that of a... swarm. If we look at a <a href=https://people.ece.cornell.edu/land/courses/ece4760/labs/s2021/Boids/Boids.html>standard boid swarm</a>
+      A more quintessential example of a swarm hivemind is that of a... swarm. If we look at a <a href=https://people.ece.cornell.edu/land/courses/ece4760/labs/s2021/Boids/Boids.html>boid swarm</a>
+      , for example, we see how collective action and goal can be formed out of 3 simple rules.<br>
+      To see this for myself, I decided to use the previously linked tutorial as a guideline for making <a href=https://github.com/kirawano/boidSim>this</a>
+      : a simple boid simulation with a predator that tracks the center of mass of the boid swarm. The code is yours for 
+      the forking if you want to modify it/tune some constants. The result I wanted was that the overall swarm would collectively
+      avoid the predator if any boid near the predator would move away from it. This is because each boid reacts to the 
+      movement of a boid around it, thus creating a collective reaction to the predator's encroachment. Because the agents 
+      in a boid swarm are so simple, they do not produce incredibly complex results. However, if we create an agent with more 
+      states and transitions between those states, we can create a collective that is capable of performing more complex tasks. 
     </p2>
 </b2>
   
